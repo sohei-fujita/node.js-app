@@ -1,11 +1,4 @@
-setTimeout(function(){
-  console.log("タイマー関数が呼ばれました")
-}, 3000);
+const {name, add} = require("./helper");
 
-setTimeout(function(){
-  console.log("タイマー関数が呼ばれました")
-}, 3000); 
-
-setTimeout(function(){
-  console.log("タイマー関数が呼ばれました")
-}, 3000); 
+console.log(add(2, 3));
+console.log(name)
